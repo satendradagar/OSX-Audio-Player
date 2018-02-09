@@ -11,6 +11,17 @@
 		9A0AA395202AE14E0049C425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AA394202AE14E0049C425 /* ViewController.swift */; };
 		9A0AA397202AE14E0049C425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0AA396202AE14E0049C425 /* Assets.xcassets */; };
 		9A0AA39A202AE14E0049C425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0AA398202AE14E0049C425 /* Main.storyboard */; };
+		9A0AA3A3202AEA300049C425 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AA3A2202AEA300049C425 /* PlayerViewController.swift */; };
+		9A0AA3A5202B17230049C425 /* MusicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AA3A4202B17230049C425 /* MusicItem.swift */; };
+		9A0AA3A7202B18300049C425 /* PlayerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0AA3A6202B18300049C425 /* PlayerViewController.storyboard */; };
+		9A0AA3AC202B5CEE0049C425 /* DoubleClickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AA3A9202B5CEE0049C425 /* DoubleClickButton.swift */; };
+		9A0AA3AD202B5CEE0049C425 /* NSStoryboard+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AA3AA202B5CEE0049C425 /* NSStoryboard+Utilities.swift */; };
+		9A0AA3AE202B5CEE0049C425 /* NSViewController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AA3AB202B5CEE0049C425 /* NSViewController+Utilities.swift */; };
+		9A2DECC9202C93E200E7E179 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DECC6202C93E100E7E179 /* CircularProgressView.swift */; };
+		9A2DECCA202C93E200E7E179 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DECC7202C93E100E7E179 /* ProgressBar.swift */; };
+		9A2DECCB202C93E200E7E179 /* DeterminateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DECC8202C93E100E7E179 /* DeterminateAnimation.swift */; };
+		9A2DECCD202C953400E7E179 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DECCC202C953400E7E179 /* BaseView.swift */; };
+		9A2DECCF202C971D00E7E179 /* NSBezierPath-CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2DECCE202C971D00E7E179 /* NSBezierPath-CGPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +32,17 @@
 		9A0AA399202AE14E0049C425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A0AA39B202AE14E0049C425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A0AA39C202AE14E0049C425 /* OSX_Mini_Audio_Player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OSX_Mini_Audio_Player.entitlements; sourceTree = "<group>"; };
+		9A0AA3A2202AEA300049C425 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		9A0AA3A4202B17230049C425 /* MusicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItem.swift; sourceTree = "<group>"; };
+		9A0AA3A6202B18300049C425 /* PlayerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerViewController.storyboard; sourceTree = "<group>"; };
+		9A0AA3A9202B5CEE0049C425 /* DoubleClickButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleClickButton.swift; sourceTree = "<group>"; };
+		9A0AA3AA202B5CEE0049C425 /* NSStoryboard+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSStoryboard+Utilities.swift"; sourceTree = "<group>"; };
+		9A0AA3AB202B5CEE0049C425 /* NSViewController+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSViewController+Utilities.swift"; sourceTree = "<group>"; };
+		9A2DECC6202C93E100E7E179 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		9A2DECC7202C93E100E7E179 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		9A2DECC8202C93E100E7E179 /* DeterminateAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeterminateAnimation.swift; sourceTree = "<group>"; };
+		9A2DECCC202C953400E7E179 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		9A2DECCE202C971D00E7E179 /* NSBezierPath-CGPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBezierPath-CGPath.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +77,39 @@
 			children = (
 				9A0AA392202AE14E0049C425 /* AppDelegate.swift */,
 				9A0AA394202AE14E0049C425 /* ViewController.swift */,
+				9A0AA3A2202AEA300049C425 /* PlayerViewController.swift */,
+				9A2DECC5202C93E100E7E179 /* Determinate */,
+				9A0AA3A6202B18300049C425 /* PlayerViewController.storyboard */,
+				9A0AA3A8202B5CEE0049C425 /* CocoaSubclasses */,
+				9A0AA3A4202B17230049C425 /* MusicItem.swift */,
 				9A0AA396202AE14E0049C425 /* Assets.xcassets */,
 				9A0AA398202AE14E0049C425 /* Main.storyboard */,
 				9A0AA39B202AE14E0049C425 /* Info.plist */,
 				9A0AA39C202AE14E0049C425 /* OSX_Mini_Audio_Player.entitlements */,
 			);
 			path = "OSX Mini Audio Player";
+			sourceTree = "<group>";
+		};
+		9A0AA3A8202B5CEE0049C425 /* CocoaSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				9A0AA3A9202B5CEE0049C425 /* DoubleClickButton.swift */,
+				9A0AA3AA202B5CEE0049C425 /* NSStoryboard+Utilities.swift */,
+				9A0AA3AB202B5CEE0049C425 /* NSViewController+Utilities.swift */,
+			);
+			path = CocoaSubclasses;
+			sourceTree = "<group>";
+		};
+		9A2DECC5202C93E100E7E179 /* Determinate */ = {
+			isa = PBXGroup;
+			children = (
+				9A2DECCE202C971D00E7E179 /* NSBezierPath-CGPath.swift */,
+				9A2DECCC202C953400E7E179 /* BaseView.swift */,
+				9A2DECC6202C93E100E7E179 /* CircularProgressView.swift */,
+				9A2DECC7202C93E100E7E179 /* ProgressBar.swift */,
+				9A2DECC8202C93E100E7E179 /* DeterminateAnimation.swift */,
+			);
+			path = Determinate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +144,12 @@
 				TargetAttributes = {
 					9A0AA38E202AE14E0049C425 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0AA3A7202B18300049C425 /* PlayerViewController.storyboard in Resources */,
 				9A0AA397202AE14E0049C425 /* Assets.xcassets in Resources */,
 				9A0AA39A202AE14E0049C425 /* Main.storyboard in Resources */,
 			);
@@ -134,8 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0AA3AC202B5CEE0049C425 /* DoubleClickButton.swift in Sources */,
+				9A2DECC9202C93E200E7E179 /* CircularProgressView.swift in Sources */,
 				9A0AA395202AE14E0049C425 /* ViewController.swift in Sources */,
+				9A2DECCF202C971D00E7E179 /* NSBezierPath-CGPath.swift in Sources */,
+				9A2DECCB202C93E200E7E179 /* DeterminateAnimation.swift in Sources */,
+				9A0AA3AD202B5CEE0049C425 /* NSStoryboard+Utilities.swift in Sources */,
 				9A0AA393202AE14E0049C425 /* AppDelegate.swift in Sources */,
+				9A0AA3AE202B5CEE0049C425 /* NSViewController+Utilities.swift in Sources */,
+				9A0AA3A5202B17230049C425 /* MusicItem.swift in Sources */,
+				9A2DECCA202C93E200E7E179 /* ProgressBar.swift in Sources */,
+				9A2DECCD202C953400E7E179 /* BaseView.swift in Sources */,
+				9A0AA3A3202AEA300049C425 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,13 +328,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "OSX Mini Audio Player/OSX_Mini_Audio_Player.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OSX Mini Audio Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thinprint.OSX-Mini-Audio-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -278,13 +344,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "OSX Mini Audio Player/OSX_Mini_Audio_Player.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "OSX Mini Audio Player/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thinprint.OSX-Mini-Audio-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
