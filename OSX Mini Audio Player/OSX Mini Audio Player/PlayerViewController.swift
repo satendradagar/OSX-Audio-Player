@@ -94,7 +94,7 @@ class PlayerViewController: NSViewController {
         player.play()
         
         
-        self.songTitle.stringValue = song.title ?? "Untracked"
+        self.songTitle.stringValue = song.title ?? (song.url ?? "Untitles")
         if let imgPath = song.avatar{
             if let url = URL(string: imgPath)
             {
@@ -161,13 +161,14 @@ class PlayerViewController: NSViewController {
 //            playProgress = currentTime / duration
 //            self.needsDisplay = true
         })
+        let selector = #selector(playerItemDidReachEnd(notification:))
         //wsnnn fix (https://github.com/gyetvan-andras/cocoa-waveform/issues/5#issuecomment-19802466)
-        NotificationCenter.default.addObserver(self, selector: Selector(("playerItemDidReachEnd:")), name: .AVPlayerItemDidPlayToEndTime, object: player.currentItem)
+        NotificationCenter.default.addObserver(self, selector:selector , name: .AVPlayerItemDidPlayToEndTime, object: player.currentItem)
 
     }
     
 //wsnnn fix (https://github.com/gyetvan-andras/cocoa-waveform/issues/5#issuecomment-19802466)
-    func playerItemDidReachEnd(_ notification: Notification) {
+    @objc func playerItemDidReachEnd(notification: Notification) {
         let p = notification.object as? AVPlayerItem
         p?.seek(to: kCMTimeZero, completionHandler: { (isSuccess) in
             
